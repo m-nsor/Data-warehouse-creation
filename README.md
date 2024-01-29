@@ -4,6 +4,7 @@ Designing and implementing an operational database and a data warehouse for a fi
 # Spirogyra Spy Network 
 
 Account for operational database implementation:  (ORA_mn133).
+
 Account for data warehouse implementation: (ORA_cvc104).
 
 
