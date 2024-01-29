@@ -5,7 +5,7 @@ Designing and implementing an operational database and a data warehouse for a fi
 
 Account for operational database implementation:  (ORA_mn133).
 Account for data warehouse implementation: (ORA_cvc104).
-![image](https://github.com/m-nsor/Data-warehouse-creation/assets/86014570/9eb7a79d-dbd5-4491-9b91-b077711974aa)
+
 
 
 #Project Overview 
@@ -24,7 +24,7 @@ The fake data for the tables were obtained from mockaroo, a popular site used to
 #Introduction to the Data Warehouse
 
 The subject of the data warehouse is the Spirogyra Network’s will be its espionage operations. The data warehouse will store organization-related information, including the base, spies, informants, countries, networks, cities, equipment, skills, and assigned duties. The proposed outcome is to have a centralized data repository that can help coordinate the activities and missions of the organization, enhance decision-making, and provide insights into the performance of the organization.
-![image](https://github.com/m-nsor/Data-warehouse-creation/assets/86014570/f58e8088-37b9-47fe-9ec5-d631a62aa4cd)
+
 
 
 #Schema
@@ -45,7 +45,7 @@ The dimensions of this data warehouse are:
 ●	Skills dimension: stores information about the network, such as the skill ID and level.
 ●	Rank dimension: stores information about the network, such as the rank ID, name and star award.
 ●	Language dimension: stores information about the language, such as the language ID, name, code, and the spy ID.
-![image](https://github.com/m-nsor/Data-warehouse-creation/assets/86014570/4c3f613b-f750-4b1e-8d9e-47d97b0d23ad)
+
 
 #Data Warehouse Implementation
 
@@ -55,7 +55,7 @@ The database is implemented using the create_table.sql
 #Load Data to Warehouse Procedure 
 
 The query in load_data.sql loads the data from the transactional database in the oracle account ORA_mn133 to the data warehouse in the oracle account ORA_cvc104. First it removes any data that might be present in the tables and then copies the data from the transactional tables. The load function below is repeatable because it removes any data that is in the tables before a load is performed. By removing previous data, it ensures that the data is not duplicated. Additionally, we can alter our function to check if the record exists already and if it does we either update or ignore the record.
-![image](https://github.com/m-nsor/Data-warehouse-creation/assets/86014570/7132ddc3-cfde-4895-b3f1-65972e7dd67b)
+
 
 
 
