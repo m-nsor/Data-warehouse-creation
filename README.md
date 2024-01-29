@@ -34,19 +34,30 @@ There are different types of measures which can be used including additive, semi
 For this project, the fact table in the data warehouse is the spy table, which contains information about the spies' duties, skills, equipment used, city, rank, and language. The spy table will have foreign keys pointing to the country, network, skills, rank, task, equipment, and language dimension tables.
 In this data warehouse, there are various measures. The proposed measures are as follows:
 
-#●	Find the spies for a particular task
-#●	Find the spies that use a particular language in a specific city.
-#●	Time required to complete the tasks
-#●	 Task completed ratio of all spies.
-#●	Rate of success in completing tasks
+●	Find the spies for a particular task
 
-The dimensions of this data warehouse are:
-#●	Network dimension: stores information about the network, such as the network ID, name, and type.
-#●	Equipment dimension: stores information about the equipment, such as the equipment ID, the spy ID, the type of equipment, and the status of the equipment.
-#●	Task dimension: stores information about the task, such as the task ID, the task type,  the difficulty of the task, and the spy ID.
-#●	Skills dimension: stores information about the network, such as the skill ID and level.
-#●	Rank dimension: stores information about the network, such as the rank ID, name and star award.
-#●	Language dimension: stores information about the language, such as the language ID, name, code, and the spy ID.
+●	Find the spies that use a particular language in a specific city.
+
+●	Time required to complete the tasks
+
+●	 Task completed ratio of all spies.
+
+●	Rate of success in completing tasks
+
+
+#The dimensions of this data warehouse are:
+
+●	Network dimension: stores information about the network, such as the network ID, name, and type.
+
+●	Equipment dimension: stores information about the equipment, such as the equipment ID, the spy ID, the type of equipment, and the status of the equipment.
+
+●	Task dimension: stores information about the task, such as the task ID, the task type,  the difficulty of the task, and the spy ID.
+
+●	Skills dimension: stores information about the network, such as the skill ID and level.
+
+●	Rank dimension: stores information about the network, such as the rank ID, name and star award.
+
+●	Language dimension: stores information about the language, such as the language ID, name, code, and the spy ID.
 
 
 #Data Warehouse Implementation
