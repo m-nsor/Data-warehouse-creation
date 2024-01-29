@@ -14,8 +14,11 @@ Account for data warehouse implementation: (ORA_cvc104).
 The Spirogyra network, a spy network, is an intelligent private security organization that undertakes operations in different countries for the interest of the organization. The spy network has spies and informants who are invisible, with different tasks assigned to them in various countries. The database for this spy network will keep records of all spies and the task assigned to them. It will safeguard the information of the base, spies, country, network, city, etc. about this organization as well as help coordinate the activities of this organization.
 
 #Database creation
+
 The entity-relationships diagram for the database is er_diagram.png and the schema is schema.png
+
 The database is created using the create_table.sql and populated with project_data.sql
+
 The database is tested with working_queries.sql
 
 #Table Population
